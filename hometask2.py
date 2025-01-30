@@ -1,8 +1,11 @@
 user_input = int(input("Please enter a five-digit integer: "))
-a = user_input // 10000
-b = (user_input // 1000) % 10
-c = (user_input // 100) % 10
-d = (user_input // 10) % 10
-e = user_input % 10
+first_num = user_input // 10000
+second_num = (user_input // 1000) % 10
+third_num = (user_input // 100) % 10
+fourth_num = (user_input // 10) % 10
+fifth_num = user_input % 10
 
-print(e, d, c, b, a, sep="")
+reversed_number = fifth_num * 10000 + fourth_num * 1000 + third_num * 100 + second_num * 10 + first_num
+
+print(reversed_number)
+
