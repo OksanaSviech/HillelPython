@@ -17,7 +17,7 @@ print(result_list2)
 #3 список порожній
 list3 = []
 middle_3 = (len(list3)+1)//2
-new_list_4 = list3[:middle_3]
-new_list_5 = list3[middle_3:]
-result_list3 = [new_list_4,new_list_5]
+new_list_5 = list3[:middle_3]
+new_list_6 = list3[middle_3:]
+result_list3 = [new_list_5,new_list_6]
 print(result_list3)
