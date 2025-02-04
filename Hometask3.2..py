@@ -1,4 +1,4 @@
-lst=[12, 3, 4, 10, 8]
+lst = [12, 3, 4, 10, 8]
 if len(lst) == 0:
     lst = []
 else:
@@ -13,4 +13,3 @@ if len(lst_1)==0:
 else:
     new_lst = [lst_1[-1]] + lst_1[:-1]
 print(new_lst)
-
