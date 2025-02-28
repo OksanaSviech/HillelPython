@@ -4,8 +4,7 @@ def first_word(text):
     """ Пошук першого слова """
     for i in string.punctuation:
         if i in text and i != "'":
-           text = text.replace(i, " ")
-    text = text.strip()
+           text = text.replace(i, " ").strip()
     words = text.split()
     return str(words[0]) if words else None
 
